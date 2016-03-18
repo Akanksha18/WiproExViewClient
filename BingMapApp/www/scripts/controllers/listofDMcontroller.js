@@ -3,6 +3,7 @@
     // $scope.managers = managersData;
     //debugger;
     window.localStorage.setItem("reqchmDM", "");
+    window.localStorage.setItem("reqchmDataFor", "");
 
     var uid = window.localStorage.getItem("uid");
     document.getElementById("Loading").style.display = "block";
@@ -39,6 +40,7 @@
             window.location.href = "DMTilesDisplay.html?selectedvalues=" + $scope.selection;
             window.localStorage.setItem("SelectedDMList", $scope.selection);
             window.localStorage.setItem("reqchmDM", $scope.selection[0]);
+            window.localStorage.setItem("reqchmDataFor", "dm");
         }
     }
 

@@ -4,7 +4,7 @@ app.controller('chmchartcntrl', function ($scope, $http, Serviceurl) {
 
     var chmparameters = window.localStorage.getItem("chmparameter");
 
-    var reqchmDataFor = "dm";//window.localStorage.getItem("reqchmDataFor");
+    var reqchmDataFor = window.localStorage.getItem("reqchmDataFor");
 
     var reqchmDM = window.localStorage.getItem("reqchmDM");
 
@@ -185,7 +185,7 @@ app.controller('chmchartcntrl', function ($scope, $http, Serviceurl) {
 
         var uid = window.localStorage.getItem("uid");
 
-        var reqchmDataFor = "dm";//window.localStorage.getItem("reqchmDataFor");
+        var reqchmDataFor = window.localStorage.getItem("reqchmDataFor");
 
         var reqchmDM = window.localStorage.getItem("reqchmDM");
 

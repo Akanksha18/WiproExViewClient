@@ -123,7 +123,7 @@ function SetPushPins(PushPinData) {
 
 
             InfoBox.setOptions({
-                visible: true,
+                visible: false,
                 title: e.target.Title,
                 description: e.target.Description,
                 name: e.target.name
